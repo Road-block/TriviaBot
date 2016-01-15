@@ -19,7 +19,7 @@ Command List:
 Included Questions:
 Normal (2632 questions)
 WoW (135 questions)
-Geography (133 questions)
+Geography (1010 questions)
 
 Submit a WoW question:
 http://orinoco.breukink.co.uk/trivia/index.php

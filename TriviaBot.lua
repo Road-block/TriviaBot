@@ -367,7 +367,7 @@ function Trivia_ChangeChannel()
     local protected_channel = {"general","trade","lookingforgroup","guildrecruitment","localdefence","worlddefence"}
     local protected = false
     for _,channel in ipairs(protected_channel) do
-      if string.find(NEW_TRIVIA_CHANNEL,"^"..channel.."[.]*")~=nil then
+      if string.find(string.lower(NEW_TRIVIA_CHANNEL),"^"..channel.."[.]*")~=nil then
         protected = channel
         break
       end

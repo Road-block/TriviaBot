@@ -1,8 +1,9 @@
 ## Interface: 11200
 ## Title: TriviaBot
-## Version: 1.21
+## Version: 1.22
 ## Notes: A fun in-game trivia bot.
 ## Author: Guri
+## X-Credits: Roadblock (Nostalrius)
 ## SavedVariables:TRIVIA_QLIST, TRIVIA_CHANNEL
 
 TriviaBot.lua
