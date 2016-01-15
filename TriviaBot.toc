@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: TriviaBot
+## Version: 1.21
+## Notes: A fun in-game trivia bot.
+## Author: Guri
+## SavedVariables:TRIVIA_QLIST, TRIVIA_CHANNEL
+
+TriviaBot.lua
+TriviaBot.xml

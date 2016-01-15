@@ -1,0 +1,23 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+	..\FrameXML\UI.xsd">
+
+	<Script file="TriviaBot.lua"/>
+	<Script file="NormalQuestions.lua"/>
+	<Script file="WoWQuestions.lua"/>
+	<Script file="GeographyQuestions.lua"/>
+	<Frame name="Trivia" parent="UIParent" hidden="false">
+		<Scripts>
+			<OnLoad>
+				this.TimeSinceLastUpdate = 0
+				Trivia_OnLoad();
+			</OnLoad>
+			<OnUpdate>
+				Trivia_OnUpdate(arg1);
+			</OnUpdate>
+			<OnEvent>
+				Trivia_OnEvent(event);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+
+</Ui>
